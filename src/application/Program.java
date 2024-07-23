@@ -1,11 +1,12 @@
 package application;
 
+import boardgame.Position;
+
 public class Program {
 
 	public static void main(String[] args) {
-		System.out.println("Hello World!");
-		System.out.println("test commit");
-		System.out.println("test token");
-	}
+		Position pos = new Position(3, 5);
+		System.out.println(pos);
+	} 
 
 }
