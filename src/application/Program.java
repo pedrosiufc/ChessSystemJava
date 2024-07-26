@@ -20,10 +20,7 @@ public class Program {
 		ChessMatch chessMatch = new ChessMatch();
 		//Declarando lista de peças capituradas
 		List<ChessPiece> captured = new ArrayList<>();
-		
-		
-		
-		
+				
 		while (!chessMatch.getCheckMate()) {
 			try {
 				UI.clearScreen();
