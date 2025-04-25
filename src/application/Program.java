@@ -19,8 +19,7 @@ public class Program {
 
 		//Declarando a partida
 		ChessMatch chessMatch = new ChessMatch();
-		//Declarando lista de peças capituradas no tabuleiro
-		//Modificando o arquivo
+		//Testando sicronização com Token através do Spring Boot
 		List<ChessPiece> captured = new ArrayList<>();
 				
 		while (!chessMatch.getCheckMate()) {
