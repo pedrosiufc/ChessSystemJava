@@ -19,7 +19,7 @@ public class Program {
 
 		//Declarando a partida
 		ChessMatch chessMatch = new ChessMatch();
-		//Testando sicronização com Token através do Spring Boot
+		//Testando sicronização com através do Spring Boot com Token
 		List<ChessPiece> captured = new ArrayList<>();
 				
 		while (!chessMatch.getCheckMate()) {
