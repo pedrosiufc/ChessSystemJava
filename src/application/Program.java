@@ -19,7 +19,8 @@ public class Program {
 
 		//Declarando a partida
 		ChessMatch chessMatch = new ChessMatch();
-		//Declarando lista de peças capituradas
+		//Declarando lista de peças capituradas no tabuleiro
+		//Modificando o arquivo
 		List<ChessPiece> captured = new ArrayList<>();
 				
 		while (!chessMatch.getCheckMate()) {
